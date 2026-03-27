@@ -51,12 +51,13 @@ Used to open file dialog box to select image.
 2. Install required packages:
 ```
       pip install torch torchvision opencv-python numpy scikit-learn matplotlib
-```
-3. Prepare dataset in `data/` folder:
+
+3. Prepare dataset in data/ folder:
 ```
 data/
 ├── with_mask/
 └── without_mask/
+
 ```
 4. Train the model:
 ```
@@ -99,6 +100,7 @@ Option 2 - Exit
 ```
 
 ## 9. Algorithm
+```
 **Step-1-** Load the dataset containing images of faces with and without masks.  
 **Step-2-** Train the Model.  
 **Step-3-** Input the Image.  
@@ -107,7 +109,7 @@ Option 2 - Exit
 **Step-6-** The preprocessed face is passed through a trained CNN model.  
 **Step-7-** The model outputs a prediction: **Mask** (With Face in green box) or **No Mask** (With Face in red box).  
 **Step-8-** The result is drawn on the original image and displayed.
-
+```
 ## 🧑‍💻 Author
 **Akshat Rajput**
 
