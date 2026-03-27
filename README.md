@@ -71,6 +71,8 @@ First run train.py
 5. Run predictions:
 ```
 Run Predict.py to test on images.
+<img width="502" height="546" alt="r1wm" src="https://github.com/user-attachments/assets/66b39155-fa9d-4467-b497-5fd4f41e7fcc" />
+
 ```
 
 ## 7. Project Structure
