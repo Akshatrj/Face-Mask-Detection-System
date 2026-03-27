@@ -36,6 +36,11 @@ Used for train/test split, classification report,confusion matrix.
 ### Tkinter
 Used to open file dialog box to select image.
 
+### Kaggle Dataset Link-
+```
+https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
+```
+
 ## 5. Features
 - Custom CNN trained from scratch. 
 - Supports all standard image formats (PNG, JPG, JPEG, BMP, WebP)  
