@@ -101,14 +101,14 @@ Option 2 - Exit
 
 ## 9. Algorithm
 ```
-**Step-1-** Load the dataset containing images of faces with and without masks.  
-**Step-2-** Train the Model.  
-**Step-3-** Input the Image.  
-**Step-4-** A face is detected in the input image using OpenCV's Haar Cascade classifier.  
-**Step-5-** The detected face region is cropped, resized to 64×64 pixels, and normalized.  
-**Step-6-** The preprocessed face is passed through a trained CNN model.  
-**Step-7-** The model outputs a prediction: **Mask** (With Face in green box) or **No Mask** (With Face in red box).  
-**Step-8-** The result is drawn on the original image and displayed.
+Step-1- Load the dataset containing images of faces with and without masks.  
+Step-2- Train the Model.  
+Step-3- Input the Image.  
+Step-4- A face is detected in the input image using OpenCV's Haar Cascade classifier.  
+Step-5- The detected face region is cropped, resized to 64×64 pixels, and normalized.  
+Step-6- The preprocessed face is passed through a trained CNN model.  
+Step-7- The model outputs a prediction: **Mask** (With Face in green box) or **No Mask** (With Face in red box).  
+Step-8- The result is drawn on the original image and displayed.
 ```
 ## 🧑‍💻 Author
 **Akshat Rajput**
