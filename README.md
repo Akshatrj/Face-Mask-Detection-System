@@ -76,9 +76,12 @@ Run Predict.py to test on images.
 ## Sample Output
 
 **1.Unmasked Image-**
+
 ![Output](./r1m.PNG)
 
+
 **2.Masked Image**
+
 ![Output](./r1wm.PNG)
 ## 7. Project Structure
 
