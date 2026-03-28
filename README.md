@@ -37,7 +37,7 @@ Used for train/test split, classification report,confusion matrix.
 Used to open file dialog box to select image.
 
 ### Kaggle Dataset Link-
-```
+```bash
 https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 ```
 
@@ -49,21 +49,21 @@ https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 - Displays training metrics and plots.
 
 ## 6. How to Run
-```
-1. Install Python 3.8 or above 
-```
-``` 
-2. Install required packages:
-```
-      pip install torch torchvision opencv-python numpy scikit-learn matplotlib
 
+1. Install Python 3.8 or above 
+
+
+2. Install required packages:
+```bash
+      pip install torch torchvision opencv-python numpy scikit-learn matplotlib
+```
 3. Prepare dataset in data/ folder:
 ```
 data/
 ├── with_mask/
 └── without_mask/
-
 ```
+
 4. Train the model:
 ```
 First run train.py
